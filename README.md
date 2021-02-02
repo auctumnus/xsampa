@@ -1,4 +1,7 @@
 # xsampa
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@auctumnus/xsampa?style=flat-square)](https://bundlephobia.com/result?p=@auctumnus/xsampa)
+[![license](https://img.shields.io/github/license/auctumnus/xsampa?style=flat-square)](https://github.com/auctumnus/xsampa/blob/main/LICENSE)
+
 Converts [X-SAMPA](https://en.wikipedia.org/wiki/X-SAMPA) to 
 [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet). 
 Includes types and hopefully fully correct conversion.
@@ -6,14 +9,17 @@ Includes types and hopefully fully correct conversion.
 ## Installation
 
 ```sh
-$ yarn add xsampa
+$ yarn add @auctumnus/xsampa
 or
-$ npm install xsampa
+$ npm install @auctumnus/xsampa
 ```
 
 ## Usage
 
-
+```typescript
+import { ipa } from '@auctumnus/xsampa'
+ipa('aI_^ pi: eI_^') // = 'aɪ̯ piː eɪ̯'
+```
 
 ## License
 MIT. Includes data from 
