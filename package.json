@@ -1,6 +1,6 @@
 {
   "name": "@auctumnus/xsampa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts from X-Sampa to IPA.",
   "source": "./src/index.ts",
   "main": "./dist/xsampa.js",
