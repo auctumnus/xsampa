@@ -28,5 +28,6 @@
     "xsampa",
     "ipa",
     "x-sampa"
-  ]
+  ],
+  "sideEffects": false
 }
