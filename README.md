@@ -1,6 +1,7 @@
 # xsampa
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/@auctumnus/xsampa?style=flat-square)](https://bundlephobia.com/result?p=@auctumnus/xsampa)
 [![license](https://img.shields.io/github/license/auctumnus/xsampa?style=flat-square)](https://github.com/auctumnus/xsampa/blob/main/LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/auctumnus/xsampa/Node.js%20CI?style=flat-square)](https://github.com/auctumnus/xsampa/actions?query=workflow%3A%22Node.js+CI%22)
 
 Converts [X-SAMPA](https://en.wikipedia.org/wiki/X-SAMPA) to 
 [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet). 
