@@ -2,12 +2,12 @@
   "name": "@auctumnus/xsampa",
   "version": "1.0.0",
   "description": "Converts from X-Sampa to IPA.",
-  "source": "src/index.ts",
-  "main": "dist/xsampa.js",
-  "exports": "dist/xsampa.modern.js",
-  "module": "dist/xsampa.module.js",
-  "unpkg": "dist/xsampa.umd.js",
-  "types": "dist/xsampa.d.ts",
+  "source": "./src/index.ts",
+  "main": "./dist/xsampa.js",
+  "exports": "./dist/xsampa.modern.js",
+  "module": "./dist/xsampa.module.js",
+  "unpkg": "./dist/xsampa.umd.js",
+  "types": "./dist/xsampa.d.ts",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
@@ -29,5 +29,10 @@
     "ipa",
     "x-sampa"
   ],
-  "sideEffects": false
+  "sideEffects": false,
+  "browserslist": [
+    "defaults",
+    "maintained node versions"
+  ],
+  "dependencies": {}
 }
